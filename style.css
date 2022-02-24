@@ -82,7 +82,7 @@
 .function__input-day{
     width: 50px;
     margin: 0 0 0 3px;
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
     border-radius: 5px;
     border: 1px solid gray;
@@ -91,7 +91,7 @@
 .function__input-month {
     width: 60px;
     margin: 0 0 0 3px;
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
     border-radius: 5px;
     border: 1px solid gray;
@@ -99,8 +99,9 @@
 
 .function__input-year {
     width: 90px;
+    height: 40px;
     margin: 0 0 0 3px;
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
     border-radius: 5px;
     border: 1px solid gray;
