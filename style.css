@@ -106,13 +106,19 @@
     border: 1px solid gray;
 }
 
+.btn__wrp {
+    display: flex;
+    justify-content: center;
+}
+
 .function__button-f {
     margin: 0 0 0 5px;
     background-color: #fe8c8c;
-    width: 90px;
+    width: 150px;
     height: 40px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 15px;
+    margin: 10px 0 10px 0;
 }
 
 .function__number {
@@ -120,6 +126,8 @@
     font-size: 20px;
     margin: 5px 0 0 0;
 }
+
+
 
 .birthday__date {
     text-align: center;
