@@ -81,10 +81,11 @@
 
 .function__input-day{
     width: 40px;
-    height: 20px;
     margin: 0 0 0 3px;
     font-size: 15px;
     text-align: center;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
 .function__input-month {
@@ -92,18 +93,26 @@
     margin: 0 0 0 3px;
     font-size: 15px;
     text-align: center;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
 .function__input-year {
-    width: 100px;
+    width: 90px;
     margin: 0 0 0 3px;
     font-size: 15px;
     text-align: center;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
 .function__button-f {
     margin: 0 0 0 5px;
-    background-color: red;
+    background-color: #fe8c8c;
+    width: 85px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
 }
 
 .function__number {

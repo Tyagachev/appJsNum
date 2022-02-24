@@ -1,4 +1,5 @@
 'use strict'
+
 function button_id(){
     let day = document.getElementById("idInput_day").value;
     let month = document.getElementById("idInput_month").value;
@@ -64,10 +65,10 @@ resultFour()
 
 //Создаю массив
 let arrayNumberStr1 = [dd,mm,yy];
-    console.log(arrayNumberStr1);
+    //console.log(arrayNumberStr1);
 
-let arrayNumberStr2 = resultOne,resultTwo,resultThree,resultFour;
-    console.log(arrayNumberStr2);
+let arrayNumberStr2 = [resultOne,resultTwo,resultThree,resultFour];
+    //console.log(arrayNumberStr2);
 
 // Перебор массива
 let x = [...arrayNumberStr1, ...arrayNumberStr2]
