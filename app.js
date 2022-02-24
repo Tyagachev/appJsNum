@@ -1,8 +1,8 @@
 'use strict'
 function button_id(){
-    let day=document.getElementById("idInput_day").value;
-    let month=document.getElementById("idInput_month").value;
-    let year=document.getElementById("idInput_year").value;
+    let day = document.getElementById("idInput_day").value;
+    let month = document.getElementById("idInput_month").value;
+    let year = document.getElementById("idInput_year").value;
 
 let dd = Number(day);
 let mm = Number(month);
@@ -15,7 +15,6 @@ if (dd > 31 || dd <= 0) {
 if (mm > 12 || mm <= 0 ) {
     throw new Error(alert('Число не должно быть 0 и больше 12'));
 };
-
 
 //Разбираю dd на запчасти. Пример: 13 (1 , 3) 
 let a = Math.floor(dd / 10);
@@ -67,7 +66,7 @@ resultFour()
 let arrayNumberStr1 = [dd,mm,yy];
     console.log(arrayNumberStr1);
 
-let arrayNumberStr2 = [resultOne,resultTwo,resultThree,resultFour];
+let arrayNumberStr2 = resultOne,resultTwo,resultThree,resultFour;
     console.log(arrayNumberStr2);
 
 // Перебор массива
@@ -93,7 +92,7 @@ let skill = x[6];
 let luck = x[7];
 let senseOfDuty = x[8];
 let memory = x[9];
-let numberID = arrayNumberStr2
+let numberID = arrayNumberStr2;
 
 //Один
 let d1 = document.getElementById('one');
