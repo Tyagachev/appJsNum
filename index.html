@@ -9,7 +9,23 @@
     <title>Matrix</title>
 </head>
 <body>
-<div class="wrapper">
+    <section class="function__wrp">
+        <h1 class="birthday__date">Введите дату рождения:</h1>
+    <div class="function">
+        <input class="function__input-day" id="idInput_day" type="number" placeholder="дд.">
+        <input class="function__input-month" id="idInput_month" type="number" placeholder="мм.">
+        <input class="function__input-year" id="idInput_year" type="number" placeholder="гггг.">
+    </div>
+    
+    <div class="btn__wrp">
+        <button class="function__button-f" onclick ='button_id()'>Рассчитать</button>
+    </div>
+    
+</section>
+
+<div class="matrix__wrapper">
+    <h1 class="matrix__wrapper-text">Ваша матрица</h1>
+    <div class="matrix__wrapper-date" id ="matrix__wrapper-id"></div>
 
 <section class="square__wrapper">
     <div class="square">
@@ -41,25 +57,13 @@
             <p class="box__paragraf">Память</p>
         </div>
     </div>
-    
 </section>
-<section>
-    <h1 class="birthday__date">Введите дату рождения:</h1>
-</section>
-<div class="function">
-    <input class="function__input-day" id="idInput_day" type="number" placeholder="дд.">
-    <input class="function__input-month" id="idInput_month" type="number" placeholder="мм.">
-    <input class="function__input-year" id="idInput_year" type="number" placeholder="гггг.">
-</div>
-
-<div class="btn__wrp">
-    <button class="function__button-f" onclick ='button_id()'>Рассчитать</button>
-</div>
 
 <div class="additional__number">
     <p class="additional__number-text">Дополнительные числа:</p>
     <div class="function__number" id ="number__id"></div>
 </div>
+
 
 </body>
 </html>

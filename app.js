@@ -176,8 +176,13 @@ if (memory == undefined){
     console.log(memory + ' - Память')
 };
 
+
+let matrixWrepperID = dd + ' ' + mm + ' ' + yy;
+let matrixWrepperBirthday = document.getElementById ('matrix__wrapper-id');
+matrixWrepperBirthday.innerHTML = matrixWrepperID;
+
 //Дополнительные числа
-let numberID = resultOne + "  " + resultTwo + "  " + resultThree + "  " + resultFour;
+let numberID = resultOne + '  ' + resultTwo + '  ' + resultThree + '  ' + resultFour;
 let additionalNumbers = document.getElementById('number__id');
 additionalNumbers.innerHTML = numberID;
 
@@ -185,5 +190,14 @@ additionalNumbers.innerHTML = numberID;
 let additionalNumbersText = document.querySelector('.additional__number-text')
 additionalNumbersText.style.display = 'block';
 
+let functionWrp = document.querySelector('.function__wrp');
+if(functionWrp.style.display = 'block') {
+    functionWrp.style.display = 'none';
+}
+
+let matrixWrepper = document.querySelector('.matrix__wrapper');
+if (matrixWrepper.style.display = 'none') {
+    matrixWrepper.style.display = 'block';
+}
 
 }
