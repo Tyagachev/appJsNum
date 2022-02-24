@@ -1,0 +1,118 @@
+.body {
+    max-width: 500px;
+}
+
+
+.square__wrapper{
+    display: flex;
+    justify-content: center;
+}
+.square {
+    display: grid;
+    gap:2px;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas:
+    "one four seven"
+    "two five eight"
+    "three six nine"
+}
+
+.sqare__item {
+    height: 100px;
+}
+
+.box-1 {
+    grid-area:one;
+}
+
+.box-2 {
+    grid-area:two;
+}
+.box-3 {
+    grid-area:three;
+}
+.box-4 {
+    grid-area:four;
+}
+.box-5 {
+    grid-area:five;
+}
+.box-6 {
+    grid-area:six;
+}
+.box-7 {
+    grid-area:seven;
+}
+.box-8 {
+    grid-area:eight;
+}
+.box-9 {
+    grid-area:nine;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6,
+.box-7,
+.box-8,
+.box-9 {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.box__paragraf {
+    font-size: 13px;
+}
+
+.function {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.function__input-day{
+    width: 40px;
+    height: 20px;
+    margin: 0 0 0 3px;
+}
+
+.function__input-month {
+    width: 50px;
+    margin: 0 0 0 3px;
+}
+
+.function__input-year {
+    width: 100px;
+    margin: 0 0 0 3px;
+}
+
+.function__button-f {
+    margin: 0 0 0 5px;
+    background-color: red;
+}
+
+.function__number {
+    font-size: 20px;
+}
+
+.additional__number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.additional__number-text {
+    font-size: 20px;
+}
+
+
+
