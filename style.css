@@ -117,6 +117,8 @@
 
 .function__number {
     font-size: 20px;
+    font-size: 20px;
+    margin: 5px 0 0 0;
 }
 
 .birthday__date {
@@ -134,6 +136,7 @@
 .additional__number-text {
     font-size: 20px;
     font-weight: bold;
+    margin: 0;
 }
 
 

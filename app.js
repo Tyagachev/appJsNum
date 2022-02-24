@@ -93,7 +93,7 @@ let skill = x[6];
 let luck = x[7];
 let senseOfDuty = x[8];
 let memory = x[9];
-let numberID = arrayNumberStr2;
+//let numberID = arrayNumberStr2;
 
 //Один
 let d1 = document.getElementById('one');
@@ -176,6 +176,7 @@ if (memory == undefined){
     console.log(memory + ' - Память')
 };
 
+let numberID = resultOne + "  " + resultTwo + "  " + resultThree + "  " + resultFour;
 let d10 = document.getElementById('number__id');
 d10.innerHTML = numberID;
 }
