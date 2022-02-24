@@ -119,6 +119,12 @@
     font-size: 20px;
 }
 
+.birthday__date {
+    text-align: center;
+    font-size: 20px;
+}
+
+
 .additional__number {
     display: flex;
     flex-direction: column;
@@ -127,6 +133,7 @@
 
 .additional__number-text {
     font-size: 20px;
+    font-weight: bold;
 }
 
 
