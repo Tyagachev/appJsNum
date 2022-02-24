@@ -10,8 +10,8 @@
 .square {
     display: grid;
     gap:2px;
-    grid-template-columns: repeat(3,100px);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3,110px);
+    grid-template-rows: repeat(3, 110px);
     grid-template-areas:
     "one four seven"
     "two five eight"
@@ -80,7 +80,7 @@
 }
 
 .function__input-day{
-    width: 40px;
+    width: 50px;
     margin: 0 0 0 3px;
     font-size: 15px;
     text-align: center;
@@ -89,7 +89,7 @@
 }
 
 .function__input-month {
-    width: 50px;
+    width: 60px;
     margin: 0 0 0 3px;
     font-size: 15px;
     text-align: center;
