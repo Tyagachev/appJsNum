@@ -176,7 +176,9 @@ if (memory == undefined){
     console.log(memory + ' - Память')
 };
 
+//Дополнительные числа
 let numberID = resultOne + "  " + resultTwo + "  " + resultThree + "  " + resultFour;
-let d10 = document.getElementById('number__id');
-d10.innerHTML = numberID;
+let additionalNumbers = document.getElementById('number__id');
+additionalNumbers.innerHTML = numberID;
+
 }
