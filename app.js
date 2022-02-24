@@ -176,10 +176,19 @@ if (memory == undefined){
     console.log(memory + ' - Память')
 };
 
-
-let matrixWrepperID = dd + ' ' + mm + ' ' + yy;
+// Дата рождения
+let matrixWrepperID = dd + '.' + ' ' + mm + '.' + ' ' + yy;
+if (mm < 10) {
+    matrixWrepperID = dd + '.' + ' ' + '0' + mm + '.' + ' ' + yy;
+}
 let matrixWrepperBirthday = document.getElementById ('matrix__wrapper-id');
 matrixWrepperBirthday.innerHTML = matrixWrepperID;
+
+//Открывает блок с матрицей
+let matrixWrepper = document.querySelector('.matrix__wrapper');
+if (matrixWrepper.style.display = 'none') {
+    matrixWrepper.style.display = 'block';
+}
 
 //Дополнительные числа
 let numberID = resultOne + '  ' + resultTwo + '  ' + resultThree + '  ' + resultFour;
@@ -193,11 +202,6 @@ additionalNumbersText.style.display = 'block';
 let functionWrp = document.querySelector('.function__wrp');
 if(functionWrp.style.display = 'block') {
     functionWrp.style.display = 'none';
-}
-
-let matrixWrepper = document.querySelector('.matrix__wrapper');
-if (matrixWrepper.style.display = 'none') {
-    matrixWrepper.style.display = 'block';
 }
 
 }
