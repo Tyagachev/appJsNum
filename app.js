@@ -181,4 +181,9 @@ let numberID = resultOne + "  " + resultTwo + "  " + resultThree + "  " + result
 let additionalNumbers = document.getElementById('number__id');
 additionalNumbers.innerHTML = numberID;
 
+//Открывает надпись "Дополнительные числа", по умолчанию скрыта (display = 'none').
+let additionalNumbersText = document.querySelector('.additional__number-text')
+additionalNumbersText.style.display = 'block';
+
+
 }
