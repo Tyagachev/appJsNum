@@ -95,113 +95,111 @@ let skill = x[6];
 let luck = x[7];
 let senseOfDuty = x[8];
 let memory = x[9];
-//let numberID = arrayNumberStr2;
 
 //Один
 let d1 = document.getElementById('one');
 if (personality == undefined){
     d1.innerHTML = '-';
-} else { 
-    d1.innerHTML = personality;
-    console.log(personality + ' - Характер')
+    } else { 
+        d1.innerHTML = personality;
+        console.log(personality + ' - Характер')
 };
 
 //Два
 let d2 = document.getElementById('two')
 if (energy == undefined){
     d2.innerHTML = '-';
-} else {
-    d2.innerHTML = energy;
-    console.log(energy + ' - Энергетика')
+    } else {
+        d2.innerHTML = energy;
+        console.log(energy + ' - Энергетика')
 };
 
 //Три
 let d3 = document.getElementById('three');
 if (creativity == undefined){
     d3.innerHTML = '-';
-} else {
-    d3.innerHTML = creativity;
-    console.log(creativity + ' - Творчество')
+    } else {
+        d3.innerHTML = creativity;
+        console.log(creativity + ' - Творчество')
 };
 
 //Четыре
 let d4 = document.getElementById('four');
 if (health == undefined){
     d4.innerHTML = '-';
-} else {
-    d4.innerHTML = health;
-    console.log(health + ' - Здоровье')
+    } else {
+        d4.innerHTML = health;
+        console.log(health + ' - Здоровье')
 };
 
 //Пять
 let d5 = document.getElementById('five');
 if (logic == undefined){
     d5.innerHTML = '-';
-} else {
-    d5.innerHTML = logic;
-    console.log(logic + ' - Логика')
+    } else {
+        d5.innerHTML = logic;
+        console.log(logic + ' - Логика')
 };
 
 //Шесть
 let d6 = document.getElementById('six');
 if (skill == undefined){
     d6.innerHTML = '-';
-} else {
-    d6.innerHTML = skill;
-    console.log(skill + ' - Навык')
+    } else {
+        d6.innerHTML = skill;
+        console.log(skill + ' - Навык')
 };
 
 //Семь
 let d7 = document.getElementById('seven');
 if (luck == undefined){
     d7.innerHTML = '-';
-} else {
-    d7.innerHTML = luck;
-    console.log(luck + ' - Удача')
+    } else {
+        d7.innerHTML = luck;
+        console.log(luck + ' - Удача')
 };
 
 //Восемь
 let d8 = document.getElementById('eight');
 if (senseOfDuty == undefined){
     d8.innerHTML = '-';
-} else {
-    d8.innerHTML = senseOfDuty;
-    console.log(senseOfDuty + ' - Чувство долга')
+    } else {
+        d8.innerHTML = senseOfDuty;
+        console.log(senseOfDuty + ' - Чувство долга')
 };
 
 //Девять
 let d9 = document.getElementById('nine');
 if (memory == undefined){
     d9.innerHTML = '-';
-} else {
-    d9.innerHTML = memory;
-    console.log(memory + ' - Память')
+    } else {
+        d9.innerHTML = memory;
+        console.log(memory + ' - Память')
 };
 
 // Дата рождения (добавление нулей если значение < 10 )
 let matrixDay = dd;
 if (dd < 10 ) {
     matrixDay  = '0' + dd;
-} else {
-    matrixDay = dd;
-}
+    } else {
+        matrixDay = dd;
+};
 let matrixMonth = mm;
 if (mm < 10 ) {
     matrixMonth = '0' + mm;
-} else {
-    matrixMonth = mm;
-}
-let matrixWrepperID = matrixDay + '.' + ' ' + matrixMonth + '.' + ' ' + yy;
+    } else {
+        matrixMonth = mm;
+};
 
+let matrixWrepperID = matrixDay + '.' + ' ' + matrixMonth + '.' + ' ' + yy;
 let matrixWrepperBirthday = document.getElementById ('matrix__wrapper-id');
 matrixWrepperBirthday.innerHTML = matrixWrepperID;
-
 
 //Открывает блок с матрицей
 let matrixWrepper = document.querySelector('.matrix__wrapper');
 if (matrixWrepper.style.display = 'none') {
     matrixWrepper.style.display = 'block';
-}
+};
 
 //Дополнительные числа
 let numberID = resultOne + '  ' + resultTwo + '  ' + resultThree + '  ' + resultFour;
@@ -215,6 +213,6 @@ additionalNumbersText.style.display = 'block';
 let functionWrp = document.querySelector('.function__wrp');
 if(functionWrp.style.display = 'block') {
     functionWrp.style.display = 'none';
-}
+};
 
-}
+};
