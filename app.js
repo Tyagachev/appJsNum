@@ -178,14 +178,21 @@ if (memory == undefined){
     console.log(memory + ' - Память')
 };
 
-// Дата рождения
-let matrixWrepperID = dd + '.' + ' ' + mm + '.' + ' ' + yy;
+// Дата рождения (добавление нулей если значение < 10 )
+let matrixDay = dd;
 if (dd < 10 ) {
-    matrixWrepperID = '0' + dd + '.' + ' ' + mm + '.' + ' ' + yy;
+    matrixDay  = '0' + dd;
+} else {
+    matrixDay = dd;
 }
+let matrixMonth = mm;
 if (mm < 10 ) {
-    matrixWrepperID = dd + '.' + ' ' + '0' + mm + '.' + ' ' + yy;
+    matrixMonth = '0' + mm;
+} else {
+    matrixMonth = mm;
 }
+let matrixWrepperID = matrixDay + '.' + ' ' + matrixMonth + '.' + ' ' + yy;
+
 let matrixWrepperBirthday = document.getElementById ('matrix__wrapper-id');
 matrixWrepperBirthday.innerHTML = matrixWrepperID;
 
