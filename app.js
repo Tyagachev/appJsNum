@@ -178,8 +178,8 @@ if (memory == undefined){
 
 // Дата рождения
 let matrixWrepperID = dd + '.' + ' ' + mm + '.' + ' ' + yy;
-if (mm < 10) {
-    matrixWrepperID = dd + '.' + ' ' + '0' + mm + '.' + ' ' + yy;
+if (dd < 10 || mm < 10 ) {
+    matrixWrepperID = '0' + dd + '.' + ' ' + '0' + mm + '.' + ' ' + yy;
 }
 let matrixWrepperBirthday = document.getElementById ('matrix__wrapper-id');
 matrixWrepperBirthday.innerHTML = matrixWrepperID;
