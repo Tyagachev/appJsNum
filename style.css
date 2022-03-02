@@ -215,6 +215,7 @@ display: none;
 .svg__color {
     margin: 5px 5px 5px 5px;
     fill: black;
+    display: block;
 }
 
 
