@@ -1,5 +1,6 @@
-.body {
-    max-width: 500px;
+body {
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 .matrix__wrapper{
