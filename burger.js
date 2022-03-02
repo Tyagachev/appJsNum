@@ -4,7 +4,7 @@
 let divBurg = document.querySelector('.burgermenu');
 let clickZhmyak = document.querySelector('.zhmyak');
 clickZhmyak.addEventListener('click',function(){
-        for(let i = 0; i <=100; i++){
+        for(let i = 0; i <= 100; i++){
         divBurg.style.height = i + 'px';
         divBurg.classList.toggle('burburger__menu-off');
         clickZhmyak.style.display = 'none';

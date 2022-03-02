@@ -188,15 +188,17 @@
 .burgermenu {
     width: 200px;
     display: block;
-    border: 1px solid black;
     margin: 0 auto;
 }
 
 .burgermenu__link {
-    padding: 5px 0 0 0;
+    padding: 5px 0 5px 0;
     display: block;
     text-align: center;
     color: black;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
 
 }
 
@@ -207,8 +209,6 @@ display: none;
 .bur__list {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    
 }
 
 .svg__color {
