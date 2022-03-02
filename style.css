@@ -170,14 +170,14 @@
     width: 100%;
     min-height: 30px;
     border: 1px solid black;
+    padding: 5px 5px 5px 5px;
 }
 
 .zhmyak__wrp {
-    padding: 10px 10px;
 }
 
 .zhmyak {
-    width: 100px;
+    width: 30px;
     height: 30px;
 }
 
@@ -189,6 +189,7 @@
     width: 200px;
     display: block;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .burgermenu__link {
@@ -212,6 +213,7 @@ display: none;
 }
 
 .svg__color {
+    margin: 5px 5px 5px 5px;
     fill: black;
 }
 
