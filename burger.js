@@ -2,7 +2,7 @@
 
 // Иконка бургера
 let divBurg = document.querySelector('.burgermenu');
-let clickZhmyak = document.querySelector('.zhmyak');
+let clickZhmyak = document.querySelector('.zhmyak__img');
 clickZhmyak.addEventListener('click',function(){
         for(let i = 0; i <= 100; i++){
                 setTimeout(function () {

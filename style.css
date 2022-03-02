@@ -183,7 +183,7 @@ body {
     background-color:rgb(66 88 217 / 73%);
 }
 
-.zhmyak {
+.zhmyak__img {
     width: 30px;
 }
 
@@ -212,7 +212,7 @@ body {
 display: none;
 }
 
-.bur__list {
+.burgermenu__list {
     display: flex;
     flex-direction: column;
 }
