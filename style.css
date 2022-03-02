@@ -3,6 +3,16 @@ body {
     max-width: 1440px;
 }
 
+.container {
+    max-width: 1340px;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+
+/*Матрица*/
+
 .matrix__wrapper{
     text-align: center;
     margin: 10 0 0 0;
@@ -166,20 +176,15 @@ body {
 }
 
 
-
+/*Бургер*/
 .header {
     width: 100%;
     min-height: 30px;
-    border: 1px solid black;
-    padding: 5px 5px 5px 5px;
-}
-
-.zhmyak__wrp {
+    background-color: rgb(0, 247, 255);
 }
 
 .zhmyak {
     width: 30px;
-    height: 30px;
 }
 
 .zhmyak__alt-off {
@@ -201,7 +206,6 @@ body {
     font-size: 20px;
     display: inline-block;
     text-decoration: none;
-
 }
 
 .burburger__menu-off {
@@ -214,7 +218,7 @@ display: none;
 }
 
 .svg__color {
-    margin: 5px 5px 5px 5px;
+    padding: 5px 0px 0px 0px;
     fill: black;
     display: block;
 }
