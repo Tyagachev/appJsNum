@@ -20,7 +20,7 @@ body {
 }
 
 .matrix__wrapper-text {
-    margin: 0;
+    margin: 10px 0 0 0;
 }
 
 .matrix__wrapper-date {
@@ -196,6 +196,7 @@ body {
     display: block;
     margin: 0 auto;
     overflow: hidden;
+    transform: translateY(-5px);
 }
 
 .burgermenu__link {
