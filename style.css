@@ -32,7 +32,7 @@ body {
     justify-content: center;
     margin: 0 0 10px 0;
 }
-.square {
+.square__list {
     display: grid;
     gap:2px;
     grid-template-columns: repeat(3,120px);
@@ -208,7 +208,7 @@ body {
    /*text-decoration: none;*/
 }
 
-.burburger__menu-off {
+.burgermenu__menu-off {
 display: none;
 }
 

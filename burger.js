@@ -9,7 +9,7 @@ clickZhmyak.addEventListener('click',function(){
         divBurg.style.height = i + 'px';
         }, i * 4);
                 setTimeout(function (){
-        divBurg.classList.toggle('burburger__menu-off');
+        divBurg.classList.toggle('burgermenu__menu-off');
         },20);
 }
         clickZhmyak.style.display = 'none';
@@ -20,7 +20,7 @@ clickZhmyak.addEventListener('click',function(){
 // Иконка крестика
 let clickZhmyakAlt = document.querySelector('.zhmyak__alt');
 clickZhmyakAlt.addEventListener('click', function(){
-        divBurg.classList.toggle('burburger__menu-off');
+        divBurg.classList.toggle('burgermenu__menu-off');
         clickZhmyakAlt.classList.toggle('zhmyak__alt-off');
         clickZhmyak.style.display = 'block';
         clickZhmyakAlt.style.display = 'none';
