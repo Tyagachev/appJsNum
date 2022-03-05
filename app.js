@@ -97,84 +97,139 @@ let senseOfDuty = x[8];
 let memory = x[9];
 
 //Один
+let createParagrafPersonality = document.createElement('p');
+createParagrafPersonality.className = 'box__paragraf';
+createParagrafPersonality.innerHTML = 'Характер';
+
+
 let d1 = document.getElementById('one');
 if (personality == undefined){
     d1.innerHTML = '-';
+    d1.append(createParagrafPersonality);
     } else { 
         d1.innerHTML = personality;
-        console.log(personality + ' - Характер')
+        d1.append(createParagrafPersonality);
+        //console.log(personality + ' - Характер')
 };
 
 //Два
+let createParagrafEnergy = document.createElement('p');
+createParagrafEnergy.className = 'box__paragraf';
+createParagrafEnergy.innerHTML = 'Энергетика';
+
 let d2 = document.getElementById('two')
 if (energy == undefined){
     d2.innerHTML = '-';
+    d2.append(createParagrafEnergy);
     } else {
         d2.innerHTML = energy;
-        console.log(energy + ' - Энергетика')
+        d2.append(createParagrafEnergy);
+        //console.log(energy + ' - Энергетика')
 };
 
 //Три
+let createParagrafCreativity = document.createElement('p');
+createParagrafCreativity.className = 'box__paragraf';
+createParagrafCreativity.innerHTML = 'Творчество';
+
 let d3 = document.getElementById('three');
 if (creativity == undefined){
     d3.innerHTML = '-';
+    d3.append(createParagrafCreativity);
     } else {
         d3.innerHTML = creativity;
-        console.log(creativity + ' - Творчество')
+        d3.append(createParagrafCreativity);
+        //console.log(creativity + ' - Творчество')
 };
 
 //Четыре
+let createParagrafHealth = document.createElement('p');
+createParagrafHealth.className = 'box__paragraf';
+createParagrafHealth.innerHTML = 'Здоровье';
+
 let d4 = document.getElementById('four');
 if (health == undefined){
     d4.innerHTML = '-';
+    d4.append(createParagrafHealth);
     } else {
         d4.innerHTML = health;
-        console.log(health + ' - Здоровье')
+        d4.append(createParagrafHealth);
+        //console.log(health + ' - Здоровье')
 };
 
 //Пять
+let createParagrafLogic = document.createElement('p');
+createParagrafLogic.className = 'box__paragraf';
+createParagrafLogic.innerHTML = 'Логика';
+
 let d5 = document.getElementById('five');
 if (logic == undefined){
     d5.innerHTML = '-';
+    d5.append(createParagrafLogic);
     } else {
         d5.innerHTML = logic;
-        console.log(logic + ' - Логика')
+        d5.append(createParagrafLogic);
+        //console.log(logic + ' - Логика')
 };
 
 //Шесть
+let createParagrafSkill = document.createElement('p');
+createParagrafSkill.className = 'box__paragraf';
+createParagrafSkill.innerHTML = 'Навык';
+
 let d6 = document.getElementById('six');
 if (skill == undefined){
     d6.innerHTML = '-';
+    d6.append(createParagrafSkill);
     } else {
         d6.innerHTML = skill;
-        console.log(skill + ' - Навык')
+        d6.append(createParagrafSkill);
+        //console.log(skill + ' - Навык')
 };
 
 //Семь
+let createParagrafLuck = document.createElement('p');
+createParagrafLuck.className = 'box__paragraf';
+createParagrafLuck.innerHTML = 'Удача';
+
 let d7 = document.getElementById('seven');
 if (luck == undefined){
     d7.innerHTML = '-';
+    d7.append(createParagrafLuck);
     } else {
         d7.innerHTML = luck;
-        console.log(luck + ' - Удача')
+        d7.append(createParagrafLuck);
+        //console.log(luck + ' - Удача')
 };
 
 //Восемь
+let createParagrafSenseOfDuty = document.createElement('p');
+createParagrafSenseOfDuty.className = 'box__paragraf';
+createParagrafSenseOfDuty.innerHTML = 'Чувство долга';
+
 let d8 = document.getElementById('eight');
 if (senseOfDuty == undefined){
     d8.innerHTML = '-';
+    d8.append(createParagrafSenseOfDuty);
     } else {
         d8.innerHTML = senseOfDuty;
-        console.log(senseOfDuty + ' - Чувство долга')
+        d8.append(createParagrafSenseOfDuty);
+        //console.log(senseOfDuty + ' - Чувство долга')
 };
 
 //Девять
+let createParagrafMemory = document.createElement('p');
+createParagrafMemory.className = 'box__paragraf';
+createParagrafMemory.innerHTML = 'Память';
+
 let d9 = document.getElementById('nine');
 if (memory == undefined){
     d9.innerHTML = '-';
+    d9.append(createParagrafMemory);
     } else {
         d9.innerHTML = memory;
-        console.log(memory + ' - Память')
+        d9.append(createParagrafMemory);
+        //console.log(memory + ' - Память')
 };
 
 // Дата рождения (добавление нулей если значение < 10 )
