@@ -54,31 +54,43 @@ body {
 
 .box-1 {
     grid-area:one;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 
 .box-2 {
     grid-area:two;
+    border-right: 1px solid lightgrey;
 }
 .box-3 {
     grid-area:three;
+    border-top: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
 }
 .box-4 {
     grid-area:four;
+    border-bottom: 1px solid lightgrey;
 }
 .box-5 {
     grid-area:five;
 }
 .box-6 {
     grid-area:six;
+    border-top: 1px solid lightgrey;
 }
 .box-7 {
     grid-area:seven;
+    border-left: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 .box-8 {
     grid-area:eight;
+    border-left: 1px solid lightgrey;
 }
 .box-9 {
     grid-area:nine;
+    border-top: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
 }
 
 .box-1,
@@ -95,8 +107,8 @@ body {
     flex-direction: column;
     align-items: center;
     font-size: 22px;
-    border-radius: 5px;
-    border: 1px solid lightgray;
+    /*border-radius: 5px;*/
+   /* border: 1px solid lightgray;*/
 }
 
 .box__paragraf {
