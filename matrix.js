@@ -10,10 +10,10 @@ let mm = Number(month);
 let yy = Number(year);
 
 if (dd > 31 || dd <= 0) {
-    throw new Error(alert('Число не должно быть 0 и больше 31'));
+    throw new Error(alert('Число не должно быть 0 или больше 31'));
 };
 if (mm > 12 || mm <= 0 ) {
-    throw new Error(alert('Число не должно быть 0 и больше 12'));
+    throw new Error(alert('Число не должно быть 0 или больше 12'));
 };
 if (yy < 1920 || yy <= 0 || yy > 2100 ) {
     throw new Error(alert('Число не должно быть меньше 1920 или больше 2100'));
