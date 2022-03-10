@@ -3,25 +3,32 @@
 // Иконка бургера
 let divBurg = document.querySelector('.burgermenu');
 let clickZhmyak = document.querySelector('.zhmyak__img');
-clickZhmyak.addEventListener('click',function(){
+clickZhmyak.addEventListener('click',() => {
         for(let i = 0; i <= 100; i++){
-                setTimeout(function () {
+                setTimeout(() => {
         divBurg.style.height = i + 'px';
         }, i * 4);
-                setTimeout(function (){
+        divBurg.style.height == 0 + 'px';
+                setTimeout(() => {
         divBurg.classList.toggle('burgermenu__menu-off');
-        },20);
+        },50);
 }
         clickZhmyak.style.display = 'none';
         clickZhmyakAlt.style.display = 'block';
-        
 });
 
-// Иконка крестика
 let clickZhmyakAlt = document.querySelector('.zhmyak__alt');
-clickZhmyakAlt.addEventListener('click', function(){
+clickZhmyakAlt.addEventListener('click',() => {
+        for(let i = 100; i >= 0; i--){
+                setTimeout(() => {
+        divBurg.style.height =  100 - i  + 'px';
+        }, i * 4);
+        //divBurg.style.height == 0 - 'px';
+                setTimeout(() => {
         divBurg.classList.toggle('burgermenu__menu-off');
-        clickZhmyakAlt.classList.toggle('zhmyak__alt-off');
+        },400);
+}
         clickZhmyak.style.display = 'block';
         clickZhmyakAlt.style.display = 'none';
 });
+
