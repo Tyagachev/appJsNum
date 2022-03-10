@@ -86,8 +86,6 @@ let x = [...arrayNumberStr1, ...arrayNumberStr2]
     return a
     }, {})
 
-    let [personality,energy,creativity,health,logic,skill,luck,senseOfDuty,memory] = x;
-    /*
 let personality = x[1];
 let energy = x[2];
 let creativity = x[3];
@@ -97,7 +95,7 @@ let skill = x[6];
 let luck = x[7];
 let senseOfDuty = x[8];
 let memory = x[9];
-*/
+
 //Один
 let createParagrafPersonality = document.createElement('p');
 createParagrafPersonality.className = 'box__paragraf';
